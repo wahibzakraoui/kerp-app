@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kerp *.css
+recursive-include kerp *.csv
+recursive-include kerp *.html
+recursive-include kerp *.ico
+recursive-include kerp *.js
+recursive-include kerp *.json
+recursive-include kerp *.md
+recursive-include kerp *.png
+recursive-include kerp *.py
+recursive-include kerp *.svg
+recursive-include kerp *.txt
+recursive-exclude kerp *.pyc
